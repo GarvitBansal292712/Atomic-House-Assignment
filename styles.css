@@ -35,6 +35,10 @@ a.nav-link:hover{
   color: #49B649;
   font-weight: 500;
 }
+a.nav-link:active{
+  color: #49B649;
+  font-weight: 500;
+}
 
 
 #contact{
@@ -67,6 +71,10 @@ main{
   border: none;
   font-weight: 500;
   color: white;
+}
+
+.herobtns:hover{
+  background: linear-gradient(90deg, rgba(7, 218, 7, 0.522) 0%, rgba(11, 67, 11, 0.476) 64%);
 }
 
 .herohead{
@@ -183,9 +191,8 @@ i{
   margin: 0px 5px;
 }
 
- .pt-site-footer__submit {
-  display: flex;
-  justify-content: center;
+.subscribesec {
+  
   width: 300px;
   position: relative;
 } 
@@ -215,6 +222,8 @@ input::placeholder {
   color: white;
   padding: 5px;
   transform: translateX(-8px) translateY(10px);
-
-
+  
+  
 }
+
+  /* ----------------------------------------Footer  Section-------------------------------------------------- */
